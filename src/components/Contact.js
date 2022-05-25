@@ -64,7 +64,7 @@ export default function Contact() {
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Submit
           </button>
-          <input type="hidden" name="form-name" value="contact" />
+          <div data-netlify-recaptcha="true"></div>
         </form>
       </div>
     </section>
