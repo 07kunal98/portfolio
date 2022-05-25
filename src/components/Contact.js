@@ -22,8 +22,6 @@ export default function Contact() {
     })
       .then(() => alert("Message sent!"))
       .catch((error) => alert(error));
-
-      e.preventDefault();
   }
   return (
     <section id="contact" className="relative">
