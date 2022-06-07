@@ -18,11 +18,11 @@ export default function Navbar() {
             Skills
           </a>
           <a href="#personalprojects" className="mr-5 hover:text-white">
-            Projects  
+            Projects
           </a>
-         {/* <a href="#aboutme" className="mr-5 hover:text-white">
-            About Me  
-  </a>*/}
+          <a href="#aboutme" className="mr-5 hover:text-white">
+            About Me
+          </a>
         </nav>
         <a
           href="#contact"
