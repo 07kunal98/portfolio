@@ -1,7 +1,7 @@
 
 export default function AboutMe() {
     return (
-        <section id="aboutme" className="text-gray-400 bg-gray-900 body-font pb-24"> 
+        <section id="aboutme" className="text-gray-400 bg-gray-900 body-font pb-16"> 
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
             <div className="flex flex-col w-full mb-20">
             <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto inline-block w-14 mb-4" viewBox="0 0 20 20" fill="gray">
@@ -11,19 +11,17 @@ export default function AboutMe() {
             <p className="sm:text-4xl text-xl font-medium title-font pb-14 text-white">
                 About Me
             </p>
-            <p className="leading-relaxed text-gray-400">
-                <li>
-                    Hi I'm a BE Computer Science Graduate
-                </li>
-                <li>
-                    I'm a Tech Enthusiast
-                </li>
-                <li>
-                    Currently I Live in Indore, India
-                </li>
-                
-            </p>
-           </div> 
+            <p className="leading-relaxed text-gray-400 px-60 py-8">
+               
+                    <span className="text-2xl">const info = </span>"Hi I'm a Software Engineer currently living in Indore, INDIA. 
+                    I'm a Tech Enthusiast and I like to build interactive Web apps.
+                    I Joined TCS in JAN 2021 where I got the opportunity to work as a 
+                    <br/><span className="text-l font-medium text-gray-100">FRONT-END Developer."</span><br/>
+                    {/* My passion for Technology, Apps and Video Games build the strong foundation of    */}
+                    <span className="text-2xl">console.log(info)</span>
+
+                </p>
+            </div> 
         </div>
         </section>)
 }

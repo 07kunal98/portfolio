@@ -6,14 +6,14 @@ export const projects = [
       description:
         "Build using React and Tailwind CSS",
       image: require('./dataimgs/weatherapp.png'),
-      link: "https://weather-app-aws-kunal.s3.ap-south-1.amazonaws.com/index.html",
+      link: "https://weather-forecast-app-ks.netlify.app/",
     },
 
     {
         title: "Dummy Data",
         subtitle: "Dummy Data",
         description:
-          "Build using React and Tailwind CSS",
+          "Dummy Data",
         image: require('./dataimgs/weatherapp.png'),
         link: "",
       },
@@ -22,7 +22,7 @@ export const projects = [
         title: "Dummy Data",
         subtitle: "Dummy Data",
         description:
-          "Build using React and Tailwind CSS",
+          "Dummy Data",
         image: require('./dataimgs/weatherapp.png'),
         link: "",
       },
@@ -58,7 +58,7 @@ export const projects = [
 
   export const experience=[
     {
-      title: "Front-End Web Developer",
+      title: "Front-End Web Developer JAN 21 - Present",
       clientName : "Citibank NA",
       projectname : "CARDS Controller UI",
       resposibility : [
