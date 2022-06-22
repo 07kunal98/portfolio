@@ -3,24 +3,24 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="bg-gray-800  sticky top-0 z-50 text-gray-400">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <header className="bg-gray-800  sticky top-0 z-50 text-gray-300">
+      <div className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
         <span className="title-font font-medium text-white mb-4 md:mb-0">
           <a href="#about" className="ml-3 text-xl hover:text-2xl">
             {"<Kunal Solanki/> "}
           </a>
         </span>
         <nav className=" md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          <a href="#work" className="mr-5 hover:text-white">
+          <a href="#work" className="mr-4 hover:text-white hover:bg-gray-700 rounded-full px-4">
             Work ( )
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#skills" className="mr-4 hover:text-white hover:bg-gray-700 rounded-full px-4">
             Skills ( )
           </a>
-          <a href="#personalprojects" className="mr-5 hover:text-white">
+          <a href="#personalprojects" className="mr-4 hover:text-white hover:bg-gray-700 rounded-full px-4">
             Projects ( )
           </a>
-          <a href="#aboutme" className="mr-5 hover:text-white">
+          <a href="#aboutme" className="mr-4 hover:text-white hover:bg-gray-700 rounded-full px-4">
             About Me ( )
           </a>
         </nav>
