@@ -26,7 +26,7 @@ export default function Navbar() {
         </nav>
         <a
           href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-base mt-4 md:mt-0">
           Contact Me
           <span className="animate-bounce">
             <ArrowRightIcon className="w-5 h-5 rotate-90 ml-1" />
