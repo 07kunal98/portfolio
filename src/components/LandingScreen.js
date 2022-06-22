@@ -4,7 +4,7 @@ import {CodeIcon} from '@heroicons/react/outline'
 export default function LandingScreen() {
     return (
         <section id="about">
-            <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+            <div className="container mx-auto flex w-full px-10 py-20 sm:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <CodeIcon className="w-10 h-10 text-gray-500" />
                     <h2 className="sm:text-2xl text-xl mb-4  font-medium text-gray-500">
@@ -14,7 +14,9 @@ export default function LandingScreen() {
                         <br className="lg:inline-block" />
                         Specializing in building web apps.
                         <br className="lg:inline-block" />
-                        Currently I'm working as a Front-End Developer for <a href="https://www.tcs.com" className="hover:text-gray-900 ">TCS</a>
+                        Currently I'm working as a Front-End Developer for <a href="https://www.tcs.com" className="hover:text-gray-900 ">TCS
+                        <span className="animate-ping"> | </span>
+                        </a>
                         
                         <br className="hidden lg:inline-block" />
                     

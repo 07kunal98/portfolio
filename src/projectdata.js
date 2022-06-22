@@ -1,6 +1,7 @@
 
 export const projects = [
     {
+      id : 1,
       title: "Weather Forecast App",
       subtitle: "Shows Weather and Pollution related Information  ",
       description:
@@ -10,6 +11,7 @@ export const projects = [
     },
 
     {
+        id : 2,
         title: "Dummy Data",
         subtitle: "Dummy Data",
         description:
@@ -19,6 +21,7 @@ export const projects = [
       },
 
       {
+        id : 3,
         title: "Dummy Data",
         subtitle: "Dummy Data",
         description:
@@ -27,6 +30,7 @@ export const projects = [
         link: "",
       },
       {
+        id : 4,
         title: "Dummy Data",
         subtitle: "Dummy Data",
         description:
@@ -59,7 +63,7 @@ export const projects = [
   export const experience=[
     {
       title: "Front-End Web Developer JAN 21 - Present",
-      clientName : "Citibank NA",
+      clientName : "Citi NA",
       projectname : "CARDS Controller UI",
       resposibility : [
         "Design and Develop Web interface to monitor and control the processes",

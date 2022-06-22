@@ -10,7 +10,7 @@ import SocialMedia from './components/SocialMedia';
 
 function App() {
   return (
-    <div>
+    <div className='scroll-smooth'>
       <Navbar/>
       <LandingScreen/>
       <Work/>
