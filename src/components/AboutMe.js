@@ -1,7 +1,7 @@
 
 export default function AboutMe() {
     return (
-        <section id="aboutme" className="bg-gray-800"> 
+        <section id="aboutme" className="bg-gray-900"> 
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
             <div className="flex flex-col w-full mb-20">
             <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto inline-block w-20 mb-4" viewBox="0 0 20 20" fill="gray">
@@ -25,7 +25,7 @@ export default function AboutMe() {
                         After that I Joined TCS in JAN 2021 as an Assistant System Engineer Trainee 
                         <br/>And Currently working as a FRONT-END Developer"
                     </span><br/><br/>
-                    {/* My passion for Technology, Apps and Video Games build the strong foundation of    */}
+                    
                     <span className="text-2xl">console.log(info); <span className="text-white font-bold animate-ping">|</span></span>
 
                 </p>
