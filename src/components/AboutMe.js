@@ -21,7 +21,7 @@ export default function AboutMe() {
                     I have completed my Bachelor of Engineering (Computer Science) in the year 2020.
                     <br/>
                      
-                    <span className="text-l font-medium">
+                    <span className="">
                         After that I Joined TCS in JAN 2021 as an Assistant System Engineer Trainee 
                         <br/>And Currently working as a FRONT-END Developer"
                     </span><br/><br/>
