@@ -18,14 +18,14 @@ export default function Work() {
           </p>
         </div>
         
-        <div className="flex flex-wrap lg:w-4/5  sm:w-1/2 sm:mx-auto ">
+        <div className="flex flex-wrap lg:w-4/5  sm:w-1/2 sm:mx-auto">
           {projects.map((projects) => (
              <a
              href={projects.link}
-             key={projects.id}
-             className="lg:w-1/2 w-full  sm:w-1/2  mx-auto">
+             key={projects.id} 
+             className="lg:w-1/2 w-full  sm:w-1/2 pb-8 mx-auto">
 
-            <div className="rounded-lg relative border-4 m-2 border-gray-800 hover:bg-gray-900 ">
+            <div className="rounded-lg relative border-4 border-gray-800 hover:bg-gray-900 ">
               <div className="hover:opacity-0">
               <img className="absolute inset-0 w-full object-contain object-center rounded-lg" 
               src={projects.image} alt="project pic"/>
@@ -33,7 +33,7 @@ export default function Work() {
               <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                 {projects.title}
               </h2>
-              <h1 className="title-font text-lg font-medium text-white mb-3">
+              <h1 className="title-font text-lg font-medium text-white">
                 {projects.subtitle}
               </h1>
               <p className="leading-relaxed">
