@@ -1,7 +1,7 @@
 
 export default function SocialMedia(){
     return(
-        <div className="flex justify-center w-full  py-10">
+        <div className="flex flex-wrap justify-center w-full py-10">
             
             <a href="https://www.linkedin.com/in/kunal-s-086698129/">
                 <img src={require("./img/linkedin.png")} width={100} alt="linkedin logo" 
