@@ -3,7 +3,7 @@ export const projects = [
     {
       id : 1,
       title: "Weather Forecast App",
-      subtitle: "Shows Weather and Pollution related Information  ",
+      subtitle: "Shows Weather related Information  ",
       description:
         "Build using React and Tailwind CSS",
       image: require('./dataimgs/weatherapp.png'),
@@ -12,32 +12,15 @@ export const projects = [
 
     {
         id : 2,
-        title: "Dummy Data",
-        subtitle: "Dummy Data",
+        title: "Pollution Checker App",
+        subtitle: "Shows Pollution Related Details",
         description:
-          "Dummy Data",
-        image: require('./dataimgs/weatherapp.png'),
-        link: "",
+          "Build using React, Tailwind CSS and Material UI",
+        image: require('./dataimgs/pollutioncheckerapp-min.PNG'),
+        link: "https://pollutionchecker.netlify.app",
       },
 
-      {
-        id : 3,
-        title: "Dummy Data",
-        subtitle: "Dummy Data",
-        description:
-          "Dummy Data",
-        image: require('./dataimgs/weatherapp.png'),
-        link: "",
-      },
-      {
-        id : 4,
-        title: "Dummy Data",
-        subtitle: "Dummy Data",
-        description:
-          "Build using React and Tailwind CSS",
-        image: require('./dataimgs/weatherapp.png'),
-        link: "",
-      }
+      
 
 
 

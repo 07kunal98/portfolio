@@ -27,7 +27,7 @@ export default function Work() {
 
             <div className="rounded-lg relative border-4 border-gray-800 hover:bg-gray-900 ">
               <div className="hover:opacity-0">
-              <img className="absolute inset-0 w-full object-contain object-center rounded-lg" 
+              <img className="absolute t-0 h-48 w-96 rounded-lg" 
               src={projects.image} alt="project pic"/>
               </div>
               <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
